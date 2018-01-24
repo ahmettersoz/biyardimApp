@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "644387361725",
+    "firebase_url": "https://biyardimapp-b74e3.firebaseio.com",
+    "project_id": "biyardimapp-b74e3",
+    "storage_bucket": "biyardimapp-b74e3.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:644387361725:android:45062d526be96531",
+        "android_client_info": {
+          "package_name": "com.biyardimapp.biyardimv1"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "644387361725-otgqpsr1fb2j9j2501h67kl3hshlaho0.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.biyardimapp.biyardimv1",
+            "certificate_hash": "63552763a72a68b61990f0c835d4a639d19b3084"
+          }
+        },
+        {
+          "client_id": "644387361725-qmarb5b1jm8dhg5e4v6rspa066vkdqpt.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC8zrFL6ZG3Iu1luBh-zMphjfsx-1PoCvU"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "644387361725-qmarb5b1jm8dhg5e4v6rspa066vkdqpt.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.biyardimapp.biyardimv1.YardimAlActivity">
+
+    <EditText
+        android:id="@+id/yardimBasliği"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Yardım Başlığı"
+        android:inputType="textPersonName"
+        tools:layout_constraintTop_creator="1"
+        tools:layout_constraintRight_creator="1"
+        app:layout_constraintRight_toRightOf="parent"
+        android:layout_marginTop="27dp"
+        tools:layout_constraintLeft_creator="1"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/yardimIcerigi"
+        android:layout_width="219dp"
+        android:layout_height="124dp"
+        android:ems="10"
+        android:hint="Yardım İçeriği"
+        android:inputType="textMultiLine"
+        tools:layout_constraintTop_creator="1"
+        tools:layout_constraintRight_creator="1"
+        app:layout_constraintRight_toRightOf="@+id/yardimTarihi"
+        android:layout_marginTop="73dp"
+        app:layout_constraintTop_toBottomOf="@+id/yardimTarihi"
+        tools:layout_constraintLeft_creator="1"
+        app:layout_constraintLeft_toLeftOf="@+id/yardimTarihi" />
+
+    <EditText
+        android:id="@+id/yardimSehri"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Şehir"
+        android:inputType="textPersonName"
+        tools:layout_constraintTop_creator="1"
+        tools:layout_constraintRight_creator="1"
+        app:layout_constraintRight_toRightOf="@+id/yardimBasliği"
+        android:layout_marginTop="14dp"
+        app:layout_constraintTop_toBottomOf="@+id/yardimBasliği"
+        tools:layout_constraintLeft_creator="1"
+        app:layout_constraintLeft_toLeftOf="@+id/yardimBasliği" />
+
+    <EditText
+        android:id="@+id/yardimTarihi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Tarih"
+        android:inputType="date"
+        tools:layout_constraintTop_creator="1"
+        tools:layout_constraintRight_creator="1"
+        app:layout_constraintRight_toRightOf="@+id/yardimSehri"
+        android:layout_marginTop="15dp"
+        app:layout_constraintTop_toBottomOf="@+id/yardimSehri"
+        tools:layout_constraintLeft_creator="1"
+        app:layout_constraintLeft_toLeftOf="@+id/yardimSehri"
+        app:layout_constraintHorizontal_bias="0.0" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="218dp"
+        android:layout_height="75dp"
+        android:layout_marginBottom="26dp"
+        android:background="@color/colorAccent"
+        android:onClick="yardimOlustur"
+        android:text="Yardım Talebi Oluştur"
+        android:textAlignment="center"
+        android:textColor="@color/common_google_signin_btn_text_dark_default"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        tools:layout_constraintBottom_creator="1"
+        tools:layout_constraintLeft_creator="1"
+        tools:layout_constraintRight_creator="1" />
+
+    <EditText
+        android:id="@+id/yardimIletisim"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="13dp"
+        android:ems="10"
+        android:hint="İletişim Bilgileri"
+        android:inputType="textPersonName"
+        app:layout_constraintLeft_toLeftOf="@+id/yardimTarihi"
+        app:layout_constraintRight_toRightOf="@+id/yardimTarihi"
+        app:layout_constraintTop_toBottomOf="@+id/yardimTarihi"
+        tools:layout_constraintLeft_creator="1"
+        tools:layout_constraintRight_creator="1"
+        tools:layout_constraintTop_creator="1" />
+</android.support.constraint.ConstraintLayout>
